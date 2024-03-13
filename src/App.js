@@ -4,6 +4,10 @@ import './App.css';
 
 // Import pages
 import Navbar from "../src/Components/Navbar/Navbar.js";
+import Home from "../src/Pages/Home/Home.js";
+import Contact from "../src/Pages/Contact/Contact.js";
+import AboutUsPage from "../src/Pages/AboutUs/AboutUs.js";
+
 
 
 function App() {
@@ -11,14 +15,14 @@ function App() {
     <div className="App">
     <Router>
       <Navbar />
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} exact />
         <Route path="*" element={<Home />} />
         <Route path="" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
+        <Route path="/aboutUs" element={<AboutUsPage />} />
       </Routes>
-      <Footer /> */}
+      
     </Router>
   </div>
   );

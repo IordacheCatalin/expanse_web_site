@@ -8,8 +8,6 @@ import Home from "../src/Pages/Home/Home.js";
 import Contact from "../src/Pages/Contact/Contact.js";
 import AboutUsPage from "../src/Pages/AboutUs/AboutUs.js";
 
-
-
 function App() {
   return (
     <div className="App">

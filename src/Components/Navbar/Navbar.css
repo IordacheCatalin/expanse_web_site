@@ -2,5 +2,20 @@
     background-color: #000000;
     max-width: 1920px !important;
     width: 100%;
+    height: 75px;
     margin: 0 auto;
+    padding: 0% 7%;
+}
+
+.navbar-nav{
+    gap:50px
+}
+
+.navbar-nav .nav-link{
+    width: 100px;
+}
+
+.navbar-nav .nav-link.active{
+    font-weight: 600;
+    color:#ffffff;
 }

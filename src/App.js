@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
+import './TextAndColor.css';
 
 // Import pages
 import Navbar from "../src/Components/Navbar/Navbar.js";

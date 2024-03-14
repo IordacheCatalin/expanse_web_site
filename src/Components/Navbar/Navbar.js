@@ -6,9 +6,15 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-import Logo from "../../Assets/Logo/blexpanse_logo.png"
+import Logo from "../../Assets/Logo/blexpanse_logo.png";
+
+
+import { useTranslation } from "react-i18next";
 
 const NavbarIc = () => {
+
+  const { t } = useTranslation("global");
+
   return (
     <React.Fragment>
       <Navbar>

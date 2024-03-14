@@ -1,4 +1,28 @@
-﻿.title-xxxlarge40, .text-xxxlarge40 {
+﻿.title-xxxlarge60, .text-xxxlarge60 {
+    font-size: 60px !important;
+}
+
+.title-xxxlarge55, .text-xxxlarge55 {
+    font-size: 55px !important;
+}
+
+.title-xxxlarge52, .text-xxxlarge52 {
+    font-size: 52px !important;
+}
+
+.title-xxxlarge50, .text-xxxlarge50 {
+    font-size: 50px !important;
+}
+
+.title-xxxlarge45, .text-xxxlarge45 {
+    font-size: 45px !important;
+}
+
+.title-xxxlarge42, .text-xxxlarge42 {
+    font-size: 42px !important;
+}
+
+.title-xxxlarge40, .text-xxxlarge40 {
     font-size: 40px !important;
 }
 
@@ -46,8 +70,6 @@
     font-size: 18px !important;
 }
 
-
-
 .title-small, .text-small {
     font-size: 16px !important;
 }
@@ -66,16 +88,16 @@
 }
 
 
-.title-xxxlarge40, .title-xxxlarge36, .title-xxxlarge34, .title-xxxlarge32, .title-xxlarge28, .title-large22, .title-xxxlarge, .title-xxlarge, .title-xxlarge, .title-xlarge, .title-large, .title-small, .title-regular, .title-xsmall, .title-xxsmall, .title-xxsmall, .title-xxxsmall, .title-xxxxsmall {
+.title-xxxlarge60,.title-xxxlarge55,.title-xxxlarge52,.title-xxxlarge50,.title-xxxlarge45,.title-xxxlarge42,.title-xxxlarge40,.title-xxxlarge40, .title-xxxlarge36, .title-xxxlarge34, .title-xxxlarge32, .title-xxlarge28, .title-large22, .title-xxxlarge, .title-xxlarge, .title-xxlarge, .title-xlarge, .title-large, .title-small, .title-regular, .title-xsmall, .title-xxsmall, .title-xxsmall, .title-xxxsmall, .title-xxxxsmall {
     font-weight: 700;
     text-decoration: none;
 }
 
-.text-xxxlarge40, .text-xxxlarge36, .text-xxxlarge34, .text-xxxlarge32, .text-xxlarge28, .text-large22,.text-xxxlarge, .text-xllarge, .text-xxlarge, .text-xlarge, .text-large, .text-small, .text-regular, .text-xsmall, .text-xxsmall, .text-xxsmall, .text-xxxsmall, .text-xxxxsmall {
+.text-xxxlarge60,.text-xxxlarge55,.text-xxxlarge52,.text-xxxlarge50,.text-xxxlarge45,.text-xxxlarge42,.text-xxxlarge40, .text-xxxlarge36, .text-xxxlarge34, .text-xxxlarge32, .text-xxlarge28, .text-large22,.text-xxxlarge, .text-xllarge, .text-xxlarge, .text-xlarge, .text-large, .text-small, .text-regular, .text-xsmall, .text-xxsmall, .text-xxsmall, .text-xxxsmall, .text-xxxxsmall {
     font-weight: 400;
 }
 
-.title-xxxlarge40:hover, .title-xxxlarge36:hover, .title-xxxlarge34:hover, .title-xxxlarge32:hover, .title-large22:hover, .title-xxlarge28:hover, .title-xxxlarge:hover, .title-xxlarge:hover, .title-xxlarge:hover, .title-xlarge:hover, .title-large:hover, .title-small:hover, .title-regular:hover, .title-xsmall:hover, .title-xxsmall:hover, .title-xxsmall:hover, .title-xxxsmall:hover, .title-xxxxsmall:hover {
+.title-xxxlarge60:hover,.title-xxxlarge55:hover,.title-xxxlarge52:hover,.title-xxxlarge50:hover,.title-xxxlarge45:hover,.title-xxxlarge42:hover,.title-xxxlarge40:hover, .title-xxxlarge36:hover, .title-xxxlarge34:hover, .title-xxxlarge32:hover, .title-large22:hover, .title-xxlarge28:hover, .title-xxxlarge:hover, .title-xxlarge:hover, .title-xxlarge:hover, .title-xlarge:hover, .title-large:hover, .title-small:hover, .title-regular:hover, .title-xsmall:hover, .title-xxsmall:hover, .title-xxsmall:hover, .title-xxxsmall:hover, .title-xxxxsmall:hover {
     text-decoration: none;
 }
 
@@ -131,4 +153,22 @@
 
 .wheight900 {
     font-weight: 900;
+}
+
+/*font alignament*/
+
+.text-justify-ic{
+    text-align: justify;
+}
+
+.text-center-ic{
+    text-align: center;
+}
+
+.text-start-ic{
+    text-align: start;
+}
+
+.text-end-ic{
+    text-align: end;
 }

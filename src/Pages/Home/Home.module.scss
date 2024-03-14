@@ -1,0 +1,26 @@
+.HomeContainer.HomePage {
+  display: flex;
+  max-width: 1900px;
+  margin: 0 auto;
+  width: 100%;
+  color: #ffffff;
+}
+
+.LeftSide.HomePage {
+    display: flex;
+
+  flex: 1;
+  overflow: hidden;
+}
+
+.RightSide.HomePage {
+  display: flex;
+  height: calc(100vh - 75px);
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.LeftSide.HomePage {
+    height: calc(100vh - 75px);
+}

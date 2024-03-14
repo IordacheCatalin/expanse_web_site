@@ -1,9 +1,9 @@
 {
-  "Home": {
-    "Text01": "O tradiție de excelență în serviciile de asigurări și structură MGA",
-    "Text02": "Soluții avansate de asigurare",
+  "HomeRight": {
+    "Text01": "Cerul este limita",
+    "Text02": "extinde-ți afacerea dincolo de granițe",
 
-    "Text03": "Subscriere",
+    "Text03": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Text04": "Sisteme robuste pentru evaluarea și gestionarea riscurilor.",
     "Text05": "Gestiunea portofoliului",
     "Text06": "Instrumente complete pentru urmărirea și evaluarea portofoliului de polițe.",
@@ -34,7 +34,7 @@
   }
 
   ,
-  "Contact": {
+  "HomeLeft": {
     "Text01": "Completează formularul de mai jos pentru a ne contacta!",
     "Text02": "nume",
     
@@ -53,4 +53,10 @@
     "Text14": "Sediu:",
     "Text15": "Sediul social"
   }
+  ,
+  "NavBar": {
+    "Text01": "Despre noi",
+    "Text02": "Contact"
+  }
+
   }

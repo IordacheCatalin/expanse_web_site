@@ -1,9 +1,9 @@
 {
-  "Home": {
-    "Text01": "A Tradition of Excellence in Insurance Services and MGA structure",
-    "Text02": "Advanced Insurance Solutions",
+  "HomeRight": {
+    "Text01": "The Sky is The Limit",
+    "Text02": "expand your business beyond boundaries",
     
-    "Text03": "Underwriting",
+    "Text03": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Text04": "Strong assessment and management systems.",
     "Text05": "Portfolio Management",
     "Text06": "Comprehensive tools for tracking and assessing policies portfolio.",
@@ -32,7 +32,7 @@
     "Text27": "Comprising the highest professionals in the insurance sector, Intaro team brings unparalleled expertise, passion and commitment to every service we offer. From our front desk to our board room each member is dedicated to upholding the standard of excellence that Intaro is known for.",
     "Text28": "partner"
   },
-  "Contact": {
+  "HomeLeft": {
     "Text01": "Complete the form below to get in touch with us!",
     "Text02": "first name",
     
@@ -50,6 +50,10 @@
     "Text13": "Human Resources",
     "Text14": "Headquarters:",
     "Text15": "Registered Office"
+  },
+  "NavBar": {
+    "Text01": "About us",
+    "Text02": "Contact"
   }
 
 }

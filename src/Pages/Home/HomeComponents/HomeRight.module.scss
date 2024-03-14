@@ -1,0 +1,37 @@
+
+.RightContainer {
+  margin: 0% 10% 0% 10%;
+  max-width: 550px;;
+}
+.box1 {
+  margin-top: 25%;
+  width: 100%;
+}
+
+.borderSpeed {
+  border-top: 2px;
+  border-left: 2px;
+  border-right: 2px;
+  border-bottom: 0px;
+  border-style: dashed;
+  border-color: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  height: 130px;
+}
+
+.mapPinContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapPinLeftImg, .mapPinRightImg{
+    height: 65px;
+}
+
+.mapPinLeft{
+    margin: 20px 0px 0px -31px;
+}
+
+.mapPinRight{
+    margin: 20px -31px 0px 0px;
+}

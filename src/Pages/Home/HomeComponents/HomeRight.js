@@ -26,7 +26,7 @@ const RightSlide1 = () => {
           </div>
         </div>
 
-        <div className={`${style.box2} pb-5`}>
+        <div className={`${style.box2}`}>
           <div className={style.mapPinContainer}>
             <div className={style.mapPinLeft}>
               <img src={mapPin} className={style.mapPinLeftImg} alt="map pin" />
@@ -39,7 +39,7 @@ const RightSlide1 = () => {
           </div>
         </div>
 
-        <div className={`${style.box3} mb-5`}>
+        <div className={`${style.box3}`}>
           <p className="mt-5 text-regular text-justify-ic">
           {t("HomeRight.Text03")}
           </p>

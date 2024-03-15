@@ -1,10 +1,18 @@
 
 .RightContainer {
-  margin: 0% 10% 0% 10%;
-  max-width: 550px;;
+  margin: 5% 10% 0% 10%;
+  max-width: 550px;
 }
 .box1 {
-  margin-top: 25%;
+  margin-top:25%;
+  width: 100%;
+}
+.box2 {
+  margin-top: 10%;
+  width: 100%;
+}
+.box3 {
+  margin-top: 15%;
   width: 100%;
 }
 
@@ -34,4 +42,22 @@
 
 .mapPinRight{
     margin: 20px -31px 0px 0px;
+}
+
+
+@media screen and (max-height: 920px) {
+  .RightContainer {
+    margin: 0% 10% 0% 10%;
+  }
+  .box1 {
+    margin-top: 15%;
+    width: 100%;
+  }
+  .box2 {
+    margin-top: 1%;
+  }
+  .box3 {
+    margin-top: 1%;
+  }
+
 }

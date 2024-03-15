@@ -1,3 +1,41 @@
-.LeftContainer{
-    
+.LeftContainer {
+}
+.cargoImage {
+  width: -webkit-fill-available;
+  position: absolute;
+  top: 28%;
+  left: 0;
+  padding: 3%;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out 0.5s !important;
+  scale: 54;
+  transform: translate(0.68%, 40.5%);
+}
+
+// @media screen and (max-height: 851px) {
+//     .backgroundImage {
+//         scale: 45;
+//         transform: translate(0.68%, 40.2%);
+//       }
+//       .cargoImage {
+//         top: 10%;
+//         left: 0;
+//         padding: 11%;
+//       }
+// }
+
+@media screen and (max-height: 920px) {
+  .backgroundImage {
+    scale: 45;
+    transform: translate(0.68%, 40.2%);
+  }
+  .cargoImage {
+    top: 10%;
+    left: 0;
+    padding: 11%;
+  }
 }

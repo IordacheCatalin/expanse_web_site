@@ -3,10 +3,12 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  
+  height: 100vh;
+  /* overflow: hidden; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #000!important;
+  transition: all 0.3s!important;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

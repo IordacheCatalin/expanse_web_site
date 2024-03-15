@@ -1,7 +1,7 @@
-import style from "../HomeComponents/HomeRight.module.scss";
+import style from "../../HomeComponents/HomeRight/HomeRight.module.scss";
 import { useTranslation } from "react-i18next";
 
-import mapPin from "./../../../Assets/Images/MapPin.png";
+import mapPin from "./../../../../Assets/Images/MapPin.png";
 
 const RightSlide1 = () => {
   const [t] = useTranslation("global");
@@ -9,12 +9,12 @@ const RightSlide1 = () => {
     <>
       <div className={style.RightContainer}>
         <h1
-          className={`${style.navLink} ${style.Title} title-xxxlarge60 wheight500 text-justify-ic`}
+          className={`${style.Title} title-xxxlarge60 wheight500 text-center-ic`}
         >
           {t("HomeRight.Text01")}
         </h1>
         <h3
-          className={`${style.navLink} ${style.Title} text-xxlarge wheight200 text-justify-ic`}
+          className={`${style.Title} text-xxlarge wheight200 text-center-ic`}
         >
           {t("HomeRight.Text02")}
         </h3>

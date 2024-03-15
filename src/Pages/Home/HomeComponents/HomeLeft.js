@@ -1,45 +1,53 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import style from "../HomeComponents/HomeLeft.module.scss";
 import Background from "./../../../Assets/Images/background.svg";
-
 import SuperDrone from "./../../../Assets/Images/cargo.png";
 
 const LeftSlide1 = () => {
-  const backgroundRef = useRef(null);
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   useEffect(() => {
-    // Function to handle wheel event
     const handleWheel = (event) => {
-      const scaleDelta = event.deltaY * 0.01; // Adjust the scaling factor as needed
-      const currentScale = parseFloat(
-        backgroundRef.current.style.transform
-          .replace("scale(", "")
-          .replace(")", "")
-      );
-      const newScale = Math.max(0.1, currentScale + scaleDelta); // Ensure the scale doesn't go below 0.1
-      backgroundRef.current.style.transition = "transform 0.3s ease"; // Adjust transition duration and timing function as needed
-      backgroundRef.current.style.transform = `scale(${newScale})`;
-      console.log("mouse move");
+      const { deltaY } = event;
+
+      if (deltaY > 0) {
+        setScrollPosition(prevPosition => Math.min(prevPosition + 1, 2));
+      } else if (deltaY < 0) {
+        setScrollPosition(prevPosition => Math.max(prevPosition - 1, 0));
+      }
     };
 
-    // Attach wheel event listener
     window.addEventListener("wheel", handleWheel);
 
-    // Clean up event listener
     return () => {
       window.removeEventListener("wheel", handleWheel);
     };
   }, []);
 
+  useEffect(() => {
+    const mapImage = document.getElementById("mapImage");
+
+    if (scrollPosition === 1) {
+      mapImage.classList.add(style.locationOne);
+      mapImage.classList.remove(style.locationTwo);
+    } else if (scrollPosition === 2) {
+      mapImage.classList.remove(style.locationOne);
+      mapImage.classList.add(style.locationTwo);
+    } else if (scrollPosition === 0) {
+      mapImage.classList.remove(style.locationTwo);
+      mapImage.classList.remove(style.locationOne);
+    }
+  }, [scrollPosition]);
+
   return (
     <div className={style.LeftContainer}>
       <img
-        ref={backgroundRef}
+        id="mapImage"
         className={style.backgroundImage}
         src={Background}
         alt="background animation"
       />
-      <img  className={style.cargoImage} src={SuperDrone} alt="cargo" />
+      <img className={style.cargoImage} src={SuperDrone} alt="cargo" />
     </div>
   );
 };

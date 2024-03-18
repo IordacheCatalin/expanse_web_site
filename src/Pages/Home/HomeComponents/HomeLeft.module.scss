@@ -11,19 +11,31 @@
 .backgroundImage {
   width: 100%;
   height: auto;
-  transition: all 3s ease-out;
-  transform: translate(0.68%, 40.5%);
+  transition: all 2s ease-out;
   scale: 54;
+  transform: translate(0.68%, 40.5%);  
+}
+
+.backgroundImage.locationZero{
+  scale: 1.6;
+  animation: translateAnimation 2s 3.5s forwards;
 }
 
 .backgroundImage.locationOne{
-  scale: 1.6;
   transform: translate(0.68%, 18.5%);
 }
 
 .backgroundImage.locationTwo{
-  scale: 1.6;
   transform: translate(0.68%, -10.5%);
+}
+
+@keyframes translateAnimation {
+  from {
+    transform: translate(0.68%, 40.5%);
+  }
+  to {
+    transform: translate(0.68%, 37.5%);
+  }
 }
 
 // @media screen and (max-height: 851px) {

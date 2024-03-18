@@ -11,7 +11,7 @@ const LeftSlide1 = () => {
       const { deltaY } = event;
 
       if (deltaY > 0) {
-        setScrollPosition(prevPosition => Math.min(prevPosition + 1, 2));
+        setScrollPosition(prevPosition => Math.min(prevPosition + 1, 3));
       } else if (deltaY < 0) {
         setScrollPosition(prevPosition => Math.max(prevPosition - 1, 0));
       }
@@ -27,15 +27,20 @@ const LeftSlide1 = () => {
   useEffect(() => {
     const mapImage = document.getElementById("mapImage");
 
-    if (scrollPosition === 1) {
+    if (scrollPosition === 2) {
       mapImage.classList.add(style.locationOne);
       mapImage.classList.remove(style.locationTwo);
-    } else if (scrollPosition === 2) {
+    } else if (scrollPosition === 3) {
       mapImage.classList.remove(style.locationOne);
       mapImage.classList.add(style.locationTwo);
     } else if (scrollPosition === 0) {
       mapImage.classList.remove(style.locationTwo);
       mapImage.classList.remove(style.locationOne);
+      mapImage.classList.remove(style.locationZero);
+    }else if (scrollPosition === 1) {
+      mapImage.classList.add(style.locationZero);
+      mapImage.classList.remove(style.locationOne);
+      mapImage.classList.remove(style.locationTwo);
     }
   }, [scrollPosition]);
 

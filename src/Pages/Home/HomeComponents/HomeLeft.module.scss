@@ -11,17 +11,19 @@
 .backgroundImage {
   width: 100%;
   height: auto;
-  transition: transform 0.5s ease-in-out 0.5s !important;
-  scale: 54;
+  transition: all 3s ease-out;
   transform: translate(0.68%, 40.5%);
+  scale: 54;
 }
 
 .backgroundImage.locationOne{
-  opacity: 0.5;
+  scale: 1.6;
+  transform: translate(0.68%, 18.5%);
 }
 
 .backgroundImage.locationTwo{
-  opacity: 0.2;
+  scale: 1.6;
+  transform: translate(0.68%, -10.5%);
 }
 
 // @media screen and (max-height: 851px) {

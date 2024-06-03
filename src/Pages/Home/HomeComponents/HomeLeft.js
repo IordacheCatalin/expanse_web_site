@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import style from "../HomeComponents/HomeLeft.module.scss";
-import Background from "./../../../Assets/Images/background.svg";
+import  Background from "./../../../Assets/Images/background.svg"
 import SuperDrone from "./../../../Assets/Images/cargo.png";
 
 const LeftSlide1 = () => {
@@ -28,10 +28,12 @@ const LeftSlide1 = () => {
     const mapImage = document.getElementById("mapImage");
 
     if (scrollPosition === 2) {
-      mapImage.classList.add(style.locationOne);
+      mapImage.classList.remove(style.locationZero);
       mapImage.classList.remove(style.locationTwo);
+      mapImage.classList.add(style.locationOne);      
     } else if (scrollPosition === 3) {
       mapImage.classList.remove(style.locationOne);
+      mapImage.classList.remove(style.locationZero);
       mapImage.classList.add(style.locationTwo);
     } else if (scrollPosition === 0) {
       mapImage.classList.remove(style.locationTwo);
